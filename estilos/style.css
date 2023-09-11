@@ -33,7 +33,7 @@ section#login{
     overflow: hidden;
 
     background-color: #FFFFFF;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -45,11 +45,17 @@ section#login > div#imagem{
     display: block;
     background: #DB0000 url(../imagens/img_login.jpg) no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: right bottom;
     height: 200px;
 }
 section#login > div#formulario{
-    float: right;
     display: block;
     padding: 10px;
+}
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.8em;
 }
